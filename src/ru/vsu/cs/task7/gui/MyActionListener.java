@@ -1,4 +1,4 @@
-package ru.vsu.cs.task7.gui.view;
+package ru.vsu.cs.task7.gui;
 
 import ru.vsu.cs.task7.gui.logics.CalculateMaxQuantity;
 import ru.vsu.cs.task7.gui.util.ArrayUtil;
