@@ -19,7 +19,7 @@ public class MyActionListener implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         int[] numbers = ArrayUtil.toIntArray(inputData.getText());
-        outputData.setText(String.valueOf(CalculateMaxQuantity.findMaximumNumberRepetitions(numbers)));
+        outputData.setText(String.valueOf(QuantityCalculator.findMaximumNumberRepetitions(numbers)));
     }
 }
 
