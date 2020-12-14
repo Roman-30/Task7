@@ -1,6 +1,6 @@
 package ru.vsu.cs.task7.gui.logics;
 
-public class CalculateMaxQuantity {
+public class QuantityCalculator {
     public static int findMaximumNumberRepetitions(int[] numbers) {
         int number = 0;
         for (int i = 0; i <= numbers.length - 1; i++) {
