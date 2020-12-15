@@ -1,6 +1,6 @@
 package ru.vsu.cs.task7.gui;
 
-import ru.vsu.cs.task7.gui.logics.CalculateMaxQuantity;
+import ru.vsu.cs.task7.gui.logics.QuantityCalculator;
 import ru.vsu.cs.task7.gui.util.ArrayUtil;
 
 import javax.swing.*;
@@ -19,7 +19,7 @@ public class MyActionListener implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         int[] numbers = ArrayUtil.toIntArray(inputData.getText());
-        outputData.setText(String.valueOf(CalculateMaxQuantity.findMaximumNumberRepetitions(numbers)));
+        outputData.setText(String.valueOf(QuantityCalculator.findMaximumNumberRepetitions(numbers)));
     }
 }
 
