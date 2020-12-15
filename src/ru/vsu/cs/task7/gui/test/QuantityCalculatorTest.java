@@ -2,6 +2,7 @@ package ru.vsu.cs.task7.gui.test;
 
 import org.junit.Assert;
 import org.junit.Test;
+
 import ru.vsu.cs.task7.gui.logics.QuantityCalculator;
 
 public class QuantityCalculatorTest {
